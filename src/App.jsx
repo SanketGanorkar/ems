@@ -1,9 +1,10 @@
+import Login from "../src/components/Auth/Login"
+import EmployeeDashboard from "./components/Dashboard/EmployeeDashboard";
 function App() {
   return (
     <>
-      <div>
-        <h1 className="text-red-600">hello world</h1>
-      </div>
+      {/* <Login/> */}
+      <EmployeeDashboard/>
     </>
   );
 }
