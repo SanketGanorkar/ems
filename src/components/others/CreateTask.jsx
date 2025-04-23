@@ -1,12 +1,8 @@
 import React from 'react'
-import Header from '../others/Header'
-import CreateTask from '../others/CreateTask'
-import AllTasks from '../others/AllTasks'
-const AdminDashboard = () => {
-    return (
-        <div className='h-screen w-full p-7'>
-            <Header />
-            {/* <div className='p-5 bg-[#1c1c1c] mt-7 rounded'>
+
+const CreateTask = () => {
+  return (
+    <div className='p-5 bg-[#1c1c1c] mt-7 rounded'>
                 <form className=' flex flex-wrap w-full items-start justify-between'>
                     <div className='w-1/2'>
                         <div>
@@ -35,11 +31,8 @@ const AdminDashboard = () => {
 
 
                 </form>
-            </div> */}
-            <CreateTask/>
-            <AllTasks/>
-        </div>
-    )
+            </div>
+  )
 }
 
-export default AdminDashboard
+export default CreateTask
