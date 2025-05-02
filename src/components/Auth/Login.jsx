@@ -20,10 +20,10 @@ const Login = ({handleLogin}) => {
         <form onSubmit={(e) => { submitHanlder(e) }} className='flex flex-col items-center justify-center'>
           <input value={email} required onChange={(e) => {
             setEmail(e.target.value)
-          }} className='border-2 border-emerald-600 py-3  px-5 text-xl  outline-none bg-transparent placeholder:text-gray-400 rounded-full' type="email" placeholder='Enter your email' name="" id="" />
+          }} className='border-2 border-emerald-600 py-3  px-5 text-xl  outline-none bg-transparent placeholder:text-gray-400 rounded-full' type="email" placeholder='Enter your email'  />
           <input value={password} onChange={(e) => {
             setPassword(e.target.value)
-          }} required className='border-2 border-emerald-600 py-3  px-5 text-xl  outline-none bg-transparent placeholder:text-gray-400 rounded-full mt-3' type="password" placeholder='Enter your password' name="" id="" />
+          }} required className='border-2 border-emerald-600 py-3  px-5 text-xl  outline-none bg-transparent placeholder:text-gray-400 rounded-full mt-3' type="password" placeholder='Enter your password'  />
           <button className=' bg-emerald-600 py-3 px-5 text-xl text-white outline-none border-none placeholder:text-gray-400 rounded-full mt-5 cursor-pointer w-56'>Log In</button>
         </form>
       </div>
